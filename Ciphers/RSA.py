@@ -30,6 +30,5 @@ message = int(input("Enter Text to Encrypt: "))
 encrypted = (message**e % n)
 print("Encrypted Message:", encrypted)
 
-print(d, e, n)
 decrypted = (encrypted**d % n)
 print("Decrypted Message:", decrypted)
